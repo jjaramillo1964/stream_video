@@ -116,6 +116,6 @@ for link in selected_links:
             break
 
     driver.save_screenshot("screenshot_{}.png".format(time.time()))
-    time.sleep(random.uniform(300, 360))  # Thời gian nghỉ ngẫu nhiên giữa các lượt
+    time.sleep(random.uniform(200, 300))  # Thời gian nghỉ ngẫu nhiên giữa các lượt
 
 driver.quit()
